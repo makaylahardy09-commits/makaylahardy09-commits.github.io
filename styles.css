@@ -1,18 +1,28 @@
 
-body {
+Body {
     background-color: #191970;
     color: #D3D3D3;
     font-family: "Calibri";
 }
 
-nav ul { 
+a {
+    color: #87CEFA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+nav ul {
     padding: 20px;
     border-radius: 10px;
 }
 
-p { 
-    font-size: 20px; 
-    line-height: 1.6; 
+p {
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 img {
@@ -20,7 +30,6 @@ img {
     height: auto;
     display: block;
 }
-
 @media (max-width: 390px) {
 
     header h1 {
